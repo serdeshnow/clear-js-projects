@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+.title {
+    color: orange;
+}
+
+.button__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.button {
+    position: relative;
+    height: 15vw;
+    width: 15vw;
+    cursor: pointer;
+    border-radius: 1.5vw;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.button-ico {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    position: absolute;
+    display: inline-block;
+}
+
+.volume-control {
+    margin: 1rem;
+    color: white;
+}
